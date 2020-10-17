@@ -13,10 +13,16 @@ In order to run the project, you will need npm v6.14 and React v16.13.1 installe
 
 ### Installation
 
-Clone the repository
+1. Clone the repository
 
 ```
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/lamarqued/testMoment
+```
+
+2. Run the following command in order to install the dependencies of the project from the root directory :
+
+```
+yarn install
 ```
 
 ### Testing
@@ -38,8 +44,8 @@ Once it's done, you can access it on your favorite browser at https://localhost:
 
 ### Acknowledgements
 
-* [themoviedb](https://www.themoviedb.org/)
-* [Upmostly](https://upmostly.com/tutorials/build-an-infinite-scroll-component-in-react-using-react-hooks)
+* [themoviedb](https://www.themoviedb.org/) - For their very complete API
+* [Upmostly](https://upmostly.com/tutorials/build-an-infinite-scroll-component-in-react-using-react-hooks) - For the tutorial about infinite scrolling using React hooks
 
 ## Authors
 

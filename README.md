@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-In order to run the project, you will need npm v6.14 and React v16.13.1 installed.
+In order to run the project, you will need npm v6.14+, yarn v1.15.2 and React v16.13.1 installed.
 
 ### Installation
 

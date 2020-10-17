@@ -1,0 +1,92 @@
+.bg-color {
+  background-color: #131722;
+}
+
+.close {
+  color: grey;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.h6 {
+  height: 20px;
+}
+
+.minw-80 {
+  min-width: 80%;
+}
+
+.modal-backdrop.show {
+  opacity: .75;
+}
+
+.modal-content {
+  background-color: #131722;
+  color: white;
+}
+
+.movie-card {
+  border: 0;
+  color: white;
+  margin: 0 auto 50px auto;
+  width: 15rem;
+}
+
+.movie-card-body {
+  padding: 0;
+}
+
+.movie-card-image {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  height: 100%;
+  margin-bottom: 5px;
+  object-fit: fill;
+  opacity: 1;
+  transition: .3s ease-in-out;
+}
+
+.movie-card-image:hover {
+  opacity: 0.7;
+}
+
+.movie-card-image-wrapper {
+  background-color: #008CBA;
+  height: 350px;
+  margin-bottom: 10px;
+  transition: .3s ease-in-out;
+}
+
+.movie-card-image-wrapper:hover {
+  transform: translate(0, -7px);
+}
+
+.movie-card-text {
+  color: #949cb0;
+  font-size: 13px;
+  margin-bottom: 0.25rem;
+}
+
+.movie-card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.movie-modal {
+  min-width: 60%;
+}
+
+.movie-modal-body {
+  background-position: center top;
+  background-size: cover;
+}
+
+.title-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

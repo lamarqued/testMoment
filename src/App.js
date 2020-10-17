@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Container from 'react-bootstrap/Container';
+import List from './components/List';
+import Row from 'react-bootstrap/Row';
+import TestTechniqueMoment from "./assets/TestTechniqueMoment.png";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+<div className="bg-color">
+  <img src={TestTechniqueMoment} alt="Test technique Moment" className="title-image" />
+  <Container className="minw-80">
+    <Row>
+      <List />
+    </Row>
+  </Container>
+</div>
+);
 
 export default App;

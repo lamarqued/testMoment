@@ -1,68 +1,46 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Test Moment
 
-## Available Scripts
+Technical test asked by Moment, consisting in the creation of an infinite scroll page containing popular movies according to
+  the [themoviedb](https://www.themoviedb.org/documentation/api) API.
 
-In the project directory, you can run:
+## Getting Started
 
-### `yarn start`
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+In order to run the project, you will need npm v6.14 and React v16.13.1 installed.
 
-### `yarn test`
+### Installation
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone the repository
 
-### `yarn build`
+```
+git clone https://github.com/your_username_/Project-Name.git
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Testing
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+In order to run the server, run the following command from the root directory :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+yarn run start
+```
 
-### `yarn eject`
+Once it's done, you can access it on your favorite browser at https://localhost:3000/ and navigate through the app !
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Miscellaneous
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Built With
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* [React](https://fr.reactjs.org/) - The front framework used (using JS)
+* [React bootstrap](https://react-bootstrap.github.io/) - A JS library adding a lot of useful elegant components
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Acknowledgements
 
-## Learn More
+* [themoviedb](https://www.themoviedb.org/)
+* [Upmostly](https://upmostly.com/tutorials/build-an-infinite-scroll-component-in-react-using-react-hooks)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Authors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**Denis LAMARQUE** - [LinkedIn](https://www.linkedin.com/in/denis-lamarque-8b0534141/)
